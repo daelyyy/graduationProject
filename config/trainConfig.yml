@@ -1,0 +1,21 @@
+  epochs: 1000
+  lr: 0.05
+  weight_decay: 0.0005
+  early_stopping: 200
+  hidden: 64
+  dropout: 0.5
+  K: 10
+  alpha: 0.1
+  dprate: 0.5
+  C: null  # This value needs to be set
+  Init: PPR
+  Gamma: null  # This value needs to be set
+  ppnp: GPR_prop
+  heads: 8
+  output_heads: 1
+  net: ChebNet
+  train_rate: 0.025
+  val_rate: 0.025
+  dataset: photo
+  cuda: 0
+  RPMAX: 10

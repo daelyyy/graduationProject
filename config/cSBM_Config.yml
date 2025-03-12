@@ -1,0 +1,7 @@
+phi:  1
+epsilon: 3.25
+root: "./data/"
+name: "cSBM_1"
+num_nodes: 5000
+num_features: 2000
+avg_degree: 5.0
