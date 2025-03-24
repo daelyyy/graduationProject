@@ -13,9 +13,9 @@
   ppnp: GPR_prop
   heads: 8
   output_heads: 1
-  net: ChebNet
-  train_rate: 0.025
-  val_rate: 0.025
+  net: BernNet
+  train_rate: 0.25
+  val_rate: 0.25
   dataset: photo
   cuda: 0
   RPMAX: 10
