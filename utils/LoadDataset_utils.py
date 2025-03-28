@@ -174,7 +174,6 @@ def load_dataset(name=None):
         return dataset, dataset[0]
     else:
         name = name.lower()
-
     if name in ['cora', 'citeseer', 'pubmed']:
         root_path = './'
         path = osp.join(root_path, 'data', name)

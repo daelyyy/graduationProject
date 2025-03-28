@@ -95,7 +95,7 @@ if __name__ == '__main__':
     lr_values = [0.002]
     weight_decay_values = [0.0005]
     # dataset_values = ['cSBM_-0.5','cSBM_-1','cSBM_-0.75','cSBM_-0.25','cSBM_0.0','cSBM_0.5','cSBM_0.25','cSBM_0.75','cSBM_1']
-    dataset_values = ['photo']
+    dataset_values = ['squirrel']
     # 在这里生成所有的参数组合
     param_combinations = list(product(alpha_values, lr_values,weight_decay_values,dataset_values))
 
